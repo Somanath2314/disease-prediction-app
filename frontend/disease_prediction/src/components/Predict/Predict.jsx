@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import axios from 'axios';
  
 
-const API_BASE_URL = import.meta.env.VITE_API_URL;
+const API_BASE_URL = 'https://disease-predict-api-20320365612.asia-south1.run.app/';
 const Predict = () => {
     const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
     const [formData, setFormData] = useState({});
